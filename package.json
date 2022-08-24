@@ -1,0 +1,29 @@
+{
+  "name": "hall_booking_api",
+  "version": "1.0.0",
+  "description": "An API for room booking application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "type": "module",
+  "author": "Naveen Kumar J",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "express-formidable": "^1.2.0",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0",
+    "query-string": "^6.14.1",
+    "stripe": "^8.214.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
